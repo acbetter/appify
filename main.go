@@ -177,6 +177,8 @@ const infoPlistTemplate = `<?xml version="1.0" encoding="UTF-8"?>
 		<key>CFBundleIconFile</key>
 		<string>{{ .IconFile }}</string>
 		{{- end }}
+		<key>NSHighResolutionCapable</key>
+		<true/>
 	</dict>
 </plist>
 `
